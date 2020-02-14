@@ -1,1 +1,4 @@
 zuul.prefix: /api
+zuul.routes.organizationservice: /org/**
+zuul.routes.licensingservice: /license/**
+
