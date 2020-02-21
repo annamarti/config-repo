@@ -1,0 +1,8 @@
+spring.datasource.driver-class-name: "com.mysql.cj.jdbc.Driver"
+spring.datasource.username: "root"
+spring.datasource.password: "{cipher}bda0dd3cbce4edcc675d05895a4672f8fe1d2ecff9206d35e7bb5e3c98ac7f93"
+spring.datasource.url: "jdbc:mysql://localhost:3306/eagle_eye_local?allowPublicKeyRetrieval=true"
+
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.MySQL5InnoDBDialect"
+spring.jpa.hibernate.ddl-auto: update
+spring.jpa.show-sql: true
